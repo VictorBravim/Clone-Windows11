@@ -1,31 +1,31 @@
-# 🪟 Windows11
+# Windows11
 
 ![image](https://github.com/VictorBravim/Windows11/assets/122113588/78c70116-abf5-4b4b-b167-1b5a36558845)
 
-## 🚀 Overview 
+## <code>Introdução</code>
 
-This project is a website that serves as a clone of the Windows 11 operating system interface. It replicates the look and feel of Windows 11, providing users with a familiar desktop experience directly in their web browser. The website includes components such as a navigation bar, desktop area, lock screen, and various applications, closely resembling the functionality of the Windows 11 operating system.
+Este projeto é um site que funciona como um clone da interface do sistema operacional Windows 11. Ele replica a aparência do Windows 11, proporcionando uma experiência de desktop familiar diretamente em seus navegador. O projeto foi feito apenas para servir como estudo e prática de front-end.
 
-## 📋 Requirements
+## <code>Pré-requisitos</code>
 
 - Node.js (v12 or later)
 - npm (v6 or later) or yarn (v1 or later)
 
-## 🔧 Installation
+## <code>Configuração</code>
 
-1. Clone the repository:
+1. Clone este repositório:
 
 ```
 git clone https://github.com/VictorBravim/Windows11.git 
 ```
 
-2. Navigate to the project directory:
+2. Navegue até o diretório do projeto:
 
 ```
 cd Windows11
 ```
 
-3. Install the dependencies:
+3. Instale dependências:
 
 ```
 npm install
@@ -33,20 +33,19 @@ or
 yarn install
 ```
 
-4. Run the development server:
+4. Execute o servidor de desenvolvimento:
 
 ```
 npm run dev
 ```
 
-## 🛠️ Project Structure
+## <code>Estrutura</code>
 
-- Nav.tsx: The Nav.tsx file is responsible for rendering the Windows-like navigation bar. It contains icons and functionalities to access applications and system resources.
-- Hero.tsx: The Hero.tsx file simulates the desktop area where users can interact with various applications and widgets. It serves as the main workspace for the user's tasks and activities.
+- Nav.tsx: O arquivo Nav.tsx é responsável por renderizar a barra de navegação semelhante ao Windows. Contém ícones e funcionalidades para acessar aplicativos e recursos do sistema.
+- Hero.tsx: O arquivo Hero.tsx simula a área da área de trabalho onde os usuários podem interagir com vários aplicativos e widgets. Ele serve como principal espaço de trabalho para as tarefas e atividades do usuário.
+- LockScreen.tsx: O arquivo LockScreen.tsx representa a tela inicial do sistema operacional Windows, onde os usuários são solicitados a fazer login ou desbloquear seus dispositivos. Ele fornece segurança e controle de acesso ao sistema.
 
-- LockScreen.tsx: The LockScreen.tsx file represents the initial screen of the Windows operating system, where users are prompted to log in or unlock their devices. It provides security and access control to the system.
 
+## <code>Licença</code>
 
-## 📄 License
-
-- This project is licensed under the [MIT License](LICENSE).
+- Este projeto está licenciado sob a [Licença MIT](LICENSE).
